@@ -42,7 +42,7 @@ use std::error::Error;
 
 fn main() -> Result<(), Box<dyn Error>> {
     // Path to the input file
-    let input_path = "input1.txt";
+    let input_path = "input1.txt"; //change this to your input files
 
     // Read and parse the input file
     let (left_list, right_list) = parse_input(input_path)?;
