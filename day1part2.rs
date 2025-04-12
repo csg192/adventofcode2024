@@ -47,7 +47,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     Ok(())
 }
-//meg a l´fasy
+
 // Parse the input file into two lists of integers
 fn parse_input(file_path: &str) -> Result<(Vec<i32>, Vec<i32>), Box<dyn Error>> {
     let content = fs::read_to_string(file_path)?;
